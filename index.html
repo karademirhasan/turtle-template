@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <title>Turtle</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script  src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+    <script>
+        
+
+        $( document ).ready(function() {
+            var SearchButton = $(".SearchButton");
+            var Search = $(".Search");
+            SearchButton.click(function(){
+                Search.toggleClass("showSearch");
+            });
+
+            var LanguageButton = $(".LanguageButton");
+            var LanguageMenu = $(".LanguageMenu");
+            LanguageButton.click(function(){
+                LanguageMenu.toggleClass("showLanguage");
+            });
+
+            var MobileMenuButton = $(".MobileMenuButton");
+            var Nav = $(".Nav");
+            MobileMenuButton.click(function(){
+                Nav.toggleClass("showMobileMenu");
+            });
+        });
+</script>
+
+    
+</head>
+<body>
+    <div class="Head">
+        <div class="Search">
+            <input type="text" placeholder="Search">
+            <button><img src="https://a.icons8.com/i0a30N/idPRWN/1_objectsnormal.svg" alt=""></button>
+        </div>
+        <div class="LanguageMenu">
+            <a href="#Turkish">Turkish</a>
+            <a href="#Português">Português</a>
+            <a href="#English">English</a>
+        </div>        
+        <header class="Header">
+            <div class="Logo">
+                <img src="img/Logo.png" alt="">
+            </div>
+            <a class="MobileMenuButton">MENU</a>
+            <div class="Nav">
+                <a href="#">ABOUT</a>
+                <a href="#">STORIES</a>
+                <a href="#">NEWS</a>
+                <a href="#">RESEARCH</a>
+                <a href="#">BLOG</a>
+                <a href="#">CONTACT</a>
+            </div>
+            <div class="RightNav">
+                <a href="#" class="SearchButton">
+                    <img src="https://a.icons8.com/yEyJdO/FdWCUs/1_objectsnormal.svg" alt="">
+                </a>
+                <a href="#" class="LanguageButton">
+                    <img src="https://a.icons8.com/HC2rVm/7mBgXj/1_objectsnormal.svg" alt="">
+                </a>
+            </div>
+        </header>
+    
+        <div class="Slider">
+            <div class="Slide slide-1" style="background-image: url('img/slider-one.jpg')">
+                <div class="Slide-content">
+                    <h4>Welcome</h4>
+                    <h1>Help Us Save</h1>
+                    <h1>A Billion Baby Turtles!</h1>
+                    <span>
+                        <img src="https://a.icons8.com/VVT9LV/ZAHXMF/1_objectsnormal.svg" alt="">
+                        <h3>HOW WE USE YOUR DONATION</h3>                        
+                    </span>
+                </div>   
+            </div>
+        </div>
+    
+    
+    
+        <div class="Donate">
+            <div class="Social">
+                <a href="">
+                    <img src="https://a.icons8.com/jAe5oS/c5G8jI/1_objectsnormal.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="https://a.icons8.com/Srih22/Tlx0js/1_objectsnormal.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="https://a.icons8.com/oTsYFt/0v3slK/1_objectsnormal.svg" alt="">
+                </a>
+            </div>
+            <div class="Form">
+                <div class="title"><h4>Donate to save baby turtles</h4></div>
+                <div class="amount">
+                    <span>AMOUNT</span>
+                    <select>
+                        <option>$10</option>
+                        <option>$20</option>
+                        <option>$40</option>
+                        <option>$100</option>
+                        <option>$200</option>
+                    </select>
+                </div>
+                <div class="period">
+                    <span>PERIOD</span>
+                    <select>
+                        <option>Weekly</option>
+                        <option>Monthly</option>
+                        <option>Yearly</option>
+                    </select>
+                </div>
+                <div class="button">
+                    <button>DONATE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="Content">
+        <section class="MainBlogs">
+            <section class="Blog">
+                <div class="photo">
+                    <img src="https://a.icons8.com/adVQbU/50XqJD/1_objectsnormal.png" alt="">
+                </div>
+                <div class="summary">
+                    <span class="category">projects</span>
+                    <h2>SOS Turtle Conservations Tours</h2>
+                    <p>Unique opportunities to participate in wildlife conservation programs. Check out our hands-on tours to Costa Rica, Cuba, Mexico, and more.</p>
+                    <a href="#">upcoming turtle tours <span><img src="https://a.icons8.com/i0a30N/idPRWN/1_objectsnormal.svg" alt=""></span></a>
+                </div>
+            </section>
+            <section class="Blog">
+                <div class="summary">
+                    <span class="category">projects</span>
+                    <h2>SOS Turtle Conservations Tours</h2>
+                    <p>Unique opportunities to participate in wildlife conservation programs. Check out our hands-on tours to Costa Rica, Cuba, Mexico, and more.</p>
+                    <a href="#">upcoming turtle tours <span><img src="https://a.icons8.com/i0a30N/idPRWN/1_objectsnormal.svg" alt=""></span></a>
+                </div>
+                <div class="photo">
+                    <img src="https://a.icons8.com/adVQbU/50XqJD/1_objectsnormal.png" alt="">
+                </div>
+            </section>
+        </section>
+        <section class="Numbers">
+            <div class="Desc">
+                <h2>BILLION BABY <br> TURTLES</h2>
+                <p>Unique opportunities to participate in wildlife conservation programs. Check out our hands-on tours to Costa Rica, Cuba, Mexico, and more.</p>
+                <ul>
+                    <li>
+                        <span>09</span>
+                        <h5>grants to conservation organizations</h5>
+                    </li>
+                    <li>
+                        <span>10</span>
+                        <h5>turtle nesting beaches supported</p>
+                    </li>
+                    <li>
+                        <span>05</span>
+                        <h5>species of sea turtles protected</h5>
+                    </li>
+                </ul>
+            </div>
+            <div class="BigNumber">
+                <div class="square">
+                    <span>407k</span>
+                    <h5>hatchlings saved</h5>
+                </div>
+            </div>     
+        </section>
+        <section class="SliderBlogs">
+            <section class="Blog">
+                    <div class="photo">
+                        <img src="https://a.icons8.com/adVQbU/50XqJD/1_objectsnormal.png" alt="">
+                    </div>
+                    <div class="summary">
+                        <span class="category">projects</span>
+                        <h2>SOS TURTLE CONSERVATIONS TOURS</h2>
+                        <p>Unique opportunities to participate in wildlife conservation programs. Check out our hands-on tours to Costa Rica, Cuba, Mexico, and more.
+                        Unique opportunities to participate in wildlife conservation programs. Check out our hands-on tours to Costa Rica, Cuba, Mexico, and more.</p>
+                    </div>
+                </section>
+        </section>
+
+
+        <section class="LatestBlogs">
+            <h2 class="title">LATEST NEWS</h2>
+
+            <div class="row">
+                <div class="Blog">
+                    <div class="summary">
+                        <span class="category">CAMPAIGN</span>
+                        <h2>Milman</h2>
+                        <span class="title">On June 12, 2018 / By Turtle Save</span>
+                        <div class="photo">
+                            <img src="https://a.icons8.com/k51cYi/gBmva8/1_objectsnormal.png" alt="">
+                        </div>
+                        <p>Researchers have been monitoring nesting turtle populations on Milman Islet for over 25 years. It is a small sandy cay within the Denham groups of Islands in the northern Great...</p>
+                        <a href="#">countinue reading <span><img src="https://a.icons8.com/i0a30N/idPRWN/1_objectsnormal.svg" alt=""></span></a>
+                    </div>
+                </div>
+                <div class="Blog">
+                    <div class="summary">
+                        <span class="category">CAMPAIGN</span>
+                        <h2>Milman</h2>
+                        <span class="title">On June 12, 2018 / By Turtle Save</span>
+                        <div class="photo">
+                            <img src="https://a.icons8.com/k51cYi/gBmva8/1_objectsnormal.png" alt="">
+                        </div>
+                        <p>Researchers have been monitoring nesting turtle populations on Milman Islet for over 25 years. It is a small sandy cay within the Denham groups of Islands in the northern Great...</p>
+                        <a href="#">countinue reading <span><img src="https://a.icons8.com/i0a30N/idPRWN/1_objectsnormal.svg" alt=""></span></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="Subscribe">
+                <h4>Sign up for monthly news, fun promotions,</h4>
+                <h5>and ways to help save turtles! </h5>
+                <form class="SubscribeForm">
+                    <input type="text" placeholder="Enter your email address">
+                    <button>SUBSCRIBE</button>
+                </form>
+        </section>  
+    </div>
+    <footer class="row">
+            <p class="Copyright">Created by <strong>Geovani Almeida</strong> CC 2018, Creative Commons 4.0</p>
+            <div class="Social">
+                <a href="">
+                    <img src="https://a.icons8.com/jAe5oS/c5G8jI/1_objectsnormal.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="https://a.icons8.com/Srih22/Tlx0js/1_objectsnormal.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="https://a.icons8.com/oTsYFt/0v3slK/1_objectsnormal.svg" alt="">
+                </a>
+            </div>
+        </footer>
+</body>
+</html>

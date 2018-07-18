@@ -1,0 +1,30 @@
+body {
+	font-family: $font-montserrat;
+	color: #fff;
+	font-size: 24px;
+	
+}
+
+p {
+	font-size: 0.75em;
+	line-height: 1em;
+}
+
+img {
+ max-width: 100%;
+}
+
+
+.container {
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hidden {
+	display: none;
+}
+
+.item-center {
+	margin: 0 auto;
+}

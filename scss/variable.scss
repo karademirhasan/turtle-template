@@ -1,0 +1,28 @@
+// COLORS
+$color-green: #22CF5F;
+$color-blue: #3E4C5B;
+$color-line: #dfe3e8;
+$color-gray: #a5adb5;
+
+
+
+// FONTS
+$font-montserrat: 'Montserrat', sans-serif;
+
+
+
+
+
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
